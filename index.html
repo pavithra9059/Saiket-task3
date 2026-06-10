@@ -1,0 +1,281 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS AI — Future Reimagined</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<canvas id="starCanvas"></canvas>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">NEXUS AI</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="floating-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">✦ Next Generation Intelligence ✦</div>
+    <h1 class="hero-title">
+      <span class="line1">BUILD THE</span>
+      <span class="line2">FUTURE NOW</span>
+    </h1>
+    <p class="hero-subtitle">Harness the power of artificial intelligence to transform your world. We build intelligent systems that think, learn, and evolve.</p>
+    <div class="hero-buttons">
+      <a href="#services" class="btn-primary">Explore Services</a>
+      <a href="#contact" class="btn-secondary">Get Started</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat-item reveal">
+    <div class="stat-num" id="stat1">0</div>
+    <div class="stat-label">Projects Launched</div>
+  </div>
+  <div class="stat-item reveal">
+    <div class="stat-num pink" id="stat2">0</div>
+    <div class="stat-label">AI Models Trained</div>
+  </div>
+  <div class="stat-item reveal">
+    <div class="stat-num yellow" id="stat3">0</div>
+    <div class="stat-label">Happy Clients</div>
+  </div>
+  <div class="stat-item reveal">
+    <div class="stat-num green" id="stat4">0</div>
+    <div class="stat-label">Team Members</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-text reveal">
+      <span class="section-tag">About Nexus AI</span>
+      <h2 class="section-title">We Are Architects of the Intelligent Future</h2>
+      <p>Nexus AI is a cutting-edge technology company dedicated to pushing the boundaries of artificial intelligence. We transform complex challenges into elegant, intelligent solutions that drive real-world impact.</p>
+      <p>Founded by visionaries, built by engineers, and trusted by enterprises across the globe — we believe every business deserves intelligence that works for them.</p>
+      <a href="#services" class="btn-primary" style="display:inline-block; margin-top:1rem;">Our Mission →</a>
+    </div>
+    <div class="about-visual reveal">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="orbit-ring ring-3"></div>
+      <div class="cube-container" style="perspective:600px;">
+        <div class="cube-face face-front">AI</div>
+        <div class="cube-face face-back">ML</div>
+        <div class="cube-face face-right">NLP</div>
+        <div class="cube-face face-left">CV</div>
+        <div class="cube-face face-top">RL</div>
+        <div class="cube-face face-bottom">GAN</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-inner">
+    <div class="services-header reveal">
+      <span class="section-tag">What We Do</span>
+      <h2 class="section-title">Our AI Powered Services</h2>
+      <p>We offer a full spectrum of intelligent solutions designed to supercharge your business.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">🧠</div>
+        <div class="service-title">Machine Learning</div>
+        <p class="service-desc">Custom ML models that learn from your data, predict outcomes, and automate complex decision-making at scale.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">💬</div>
+        <div class="service-title">Natural Language AI</div>
+        <p class="service-desc">Advanced NLP systems that understand, generate, and interact with human language naturally and accurately.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">👁️</div>
+        <div class="service-title">Computer Vision</div>
+        <p class="service-desc">State-of-the-art image recognition, object detection, and visual intelligence for real-world applications.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🤖</div>
+        <div class="service-title">AI Automation</div>
+        <p class="service-desc">Intelligent automation pipelines that eliminate repetitive tasks and free your team for high-value work.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🔮</div>
+        <div class="service-title">Predictive Analytics</div>
+        <p class="service-desc">Turn historical data into foresight. Our models predict trends, risks, and opportunities before they emerge.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">⚡</div>
+        <div class="service-title">Edge AI</div>
+        <p class="service-desc">Deploy intelligence directly on devices — fast, private, and offline-capable AI for the physical world.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE / PORTFOLIO -->
+<section class="showcase" id="work">
+  <div class="showcase-inner">
+    <div class="showcase-header reveal">
+      <span class="section-tag">Our Work</span>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+    <div class="showcase-grid">
+      <div class="showcase-item reveal">
+        <div class="showcase-bg"></div>
+        <div class="showcase-deco">
+          <div class="deco-ring" style="width:80px;height:80px;animation-delay:0s;"></div>
+          <div class="deco-ring" style="width:80px;height:80px;animation-delay:1.5s;"></div>
+          <div class="deco-ring" style="width:80px;height:80px;animation-delay:3s;"></div>
+        </div>
+        <div class="showcase-overlay">
+          <div>
+            <div class="showcase-label">NeuroVision Platform</div>
+            <div class="showcase-sub">Computer Vision · Healthcare</div>
+          </div>
+        </div>
+      </div>
+      <div class="showcase-item reveal">
+        <div class="showcase-bg"></div>
+        <div class="showcase-deco">
+          <div class="deco-ring" style="width:60px;height:60px;animation-delay:0.5s;"></div>
+          <div class="deco-ring" style="width:60px;height:60px;animation-delay:2s;"></div>
+        </div>
+        <div class="showcase-overlay">
+          <div>
+            <div class="showcase-label">SynthLang AI</div>
+            <div class="showcase-sub">NLP · Enterprise</div>
+          </div>
+        </div>
+      </div>
+      <div class="showcase-item reveal">
+        <div class="showcase-bg"></div>
+        <div class="showcase-overlay">
+          <div>
+            <div class="showcase-label">Quantum Predict</div>
+            <div class="showcase-sub">Analytics · Finance</div>
+          </div>
+        </div>
+      </div>
+      <div class="showcase-item reveal">
+        <div class="showcase-bg"></div>
+        <div class="showcase-overlay">
+          <div>
+            <div class="showcase-label">EdgeMind IoT</div>
+            <div class="showcase-sub">Edge AI · Manufacturing</div>
+          </div>
+        </div>
+      </div>
+      <div class="showcase-item reveal">
+        <div class="showcase-bg"></div>
+        <div class="showcase-overlay">
+          <div>
+            <div class="showcase-label">OmniBot</div>
+            <div class="showcase-sub">Automation · Retail</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="team-inner">
+    <div class="team-header reveal">
+      <span class="section-tag">The Minds Behind</span>
+      <h2 class="section-title">Meet Our Team</h2>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-avatar">AK</div>
+        <div class="team-name">Arjun Kumar</div>
+        <div class="team-role">CEO & Founder</div>
+        <p class="team-bio">Visionary AI researcher with 12+ years of experience transforming startups into intelligent enterprises.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">SR</div>
+        <div class="team-name">Siya Reddy</div>
+        <div class="team-role">CTO</div>
+        <p class="team-bio">Deep learning architect who built ML pipelines powering 100M+ daily predictions across industries.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">MV</div>
+        <div class="team-name">Maya Verma</div>
+        <div class="team-role">Head of Design</div>
+        <p class="team-bio">Award-winning UX designer crafting intuitive interfaces for complex AI-powered applications.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">RP</div>
+        <div class="team-name">Rohit Pillai</div>
+        <div class="team-role">Lead Researcher</div>
+        <p class="team-bio">Published AI researcher specializing in reinforcement learning and generative neural networks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <span class="section-tag" style="display:block; text-align:center; padding-left:0;">Get In Touch</span>
+    <h2 class="section-title reveal">Start Your AI Journey</h2>
+    <p class="reveal">Ready to harness the power of AI? Let's build something extraordinary together.</p>
+    <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <input type="text" class="form-input" placeholder="Your Name" required>
+        <input type="email" class="form-input" placeholder="Your Email" required>
+      </div>
+      <input type="text" class="form-input" placeholder="Subject">
+      <textarea class="form-input" placeholder="Tell us about your project..."></textarea>
+      <button type="submit" class="btn-primary" style="align-self:center; font-size:1rem; padding:1.2rem 3rem;">Send Message ✦</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-bar"></div>
+  <div class="footer-logo">NEXUS AI</div>
+  <div class="footer-tagline">Intelligence. Innovation. Impact.</div>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-copy">© 2026 Nexus AI — All Rights Reserved. Built with ❤️ and Artificial Intelligence.</div>
+</footer>
+</body>
+</html>
